@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "target": "es5",
+    "sourceMap": true,
+    "types": ["reflect-metadata", "node"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": ["node_modules/@types", "src/types"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
